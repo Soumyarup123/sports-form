@@ -1,0 +1,144 @@
+.heading
+{
+    color:blueviolet;
+    text-align:center;
+}
+
+.navbar 
+{
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.header {
+  padding: 20px;
+  height: 10vh;
+}
+
+.header h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+ul 
+{
+ 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+  
+ul li 
+{
+    list-style: none;
+}
+  
+ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+  
+ul li a:hover
+{
+    border-bottom: 3px solid white;
+}
+
+body
+{
+  background-color: #015FFB;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.one
+{
+  text-align: center;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.two
+{
+  text-align: center;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.three
+{
+  color:white;
+  padding:100px 150px 150px 100px;
+  position:center;
+}
+
+.three h1
+{
+  font-size:325%;
+  text-align:center;
+}
+
+.three p
+{
+  font-weight: 400%;
+  font-family: serif;
+  font-size: 150%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.four
+{
+  color:white;
+  padding:100px 150px 150px 100px;
+  position:center;
+  background-color: #015FFB;
+}
+
+.four h1
+{
+  font-size:325%;
+  text-align:center;
+}
+
+.four p
+{
+  font-weight: 400%;
+  font-family: serif;
+  font-size: 150%;
+  text-align: center;
+}
+
+.parentone
+{
+  background: url("bg.jpeg") no-repeat center;
+  background-size: 150%;
+  height: 1000px;
+}
+
+.parenttwo
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.parenttwo div
+{
+  padding: 50px;
+}
