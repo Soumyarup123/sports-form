@@ -19,7 +19,8 @@ padding: 0;
   background-color: transparent;
 }
 
-.header {
+.header 
+{
   padding: 20px;
   height: 10vh;
 }
@@ -68,6 +69,7 @@ ul li a:hover
   line-height: 40px;
   outline: none;
   overflow: hidden;
+  text-align: center;
 }
 
 .name
@@ -82,5 +84,10 @@ ul li a:hover
 span
 {
   display: inline-block;
-  margin:-50px;
+  margin-left:600px;
+}
+
+input
+{
+  margin-left:690px;
 }
